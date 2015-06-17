@@ -1,0 +1,590 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".MainFindActivity" >
+    <ScrollView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/homepage_top_bg"
+            >
+            
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:text="热门标签" 
+                android:textColor="@color/homepage_icon_text_gray_color"
+                android:textSize="15sp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+                
+           
+            <LinearLayout 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 
+                
+                >
+                 <RelativeLayout
+                     android:id="@+id/rl_tag_0"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_0"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="考试心得"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="托福、雅思、GRE应有尽有"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+                 <View 
+                    android:layout_width="20dp"
+                   
+                    android:layout_height="wrap_content"/>
+                 <RelativeLayout
+                    android:id="@+id/rl_tag_1"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_1"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="学校申请"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="校园“真相”大揭秘"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+            </LinearLayout>
+             </RelativeLayout>
+             <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                
+           
+            <LinearLayout 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 
+                
+                >
+                 <RelativeLayout
+                     android:id="@+id/rl_tag_2"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_2"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="吃喝指南"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="拉仇恨和流口水"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+                 <View 
+                    android:layout_width="20dp"
+                   
+                    android:layout_height="wrap_content"/>
+                 <RelativeLayout
+                    android:id="@+id/rl_tag_3"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_3"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="购物秘籍"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="逛街去哪儿"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+            </LinearLayout>
+             </RelativeLayout>
+             <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                
+           
+            <LinearLayout 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 
+                
+                >
+                 <RelativeLayout
+                     android:id="@+id/rl_tag_4"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_4"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="情感留学地"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="“异国恋”和留学心情"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+                 <View 
+                    android:layout_width="20dp"
+                   
+                    android:layout_height="wrap_content"/>
+                 <RelativeLayout
+                    android:id="@+id/rl_tag_5"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_5"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="就业打工"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="真实就业情况和打工经验"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+            </LinearLayout>
+             </RelativeLayout>
+             <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                
+           
+            <LinearLayout 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 
+                
+                >
+                 <RelativeLayout
+                     android:id="@+id/rl_tag_6"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_6"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="交通住宿"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="出行住宿宝典"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+                 <View 
+                    android:layout_width="20dp"
+                   
+                    android:layout_height="wrap_content"/>
+                 <RelativeLayout
+                     android:id="@+id/rl_tag_7"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_7"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="寻找小伙伴"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="合租、结伴同行"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+            </LinearLayout>
+             </RelativeLayout>
+             <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+                
+           
+            <LinearLayout 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 
+                
+                >
+                 <RelativeLayout
+                     android:id="@+id/rl_tag_8"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_8"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="文化观察"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="文化与见识"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+                 <View 
+                    android:layout_width="20dp"
+                   
+                    android:layout_height="wrap_content"/>
+                 <RelativeLayout
+                    android:id="@+id/rl_tag_9"
+                    android:layout_width="@dimen/homepage_icon_width"
+                    android:layout_height="@dimen/homepage_icon_height"
+                    android:background="@drawable/homepage_icon_9"
+                    android:gravity="center"
+                    >
+                    
+                     <LinearLayout
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_gravity="center_vertical"
+                         >
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                             >
+                         <TextView
+                             android:text="其他问题"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="15sp"
+                             
+                             />
+                         </RelativeLayout>
+                         <RelativeLayout 
+                              android:layout_width="fill_parent"
+                              android:layout_height="wrap_content"
+                              android:gravity="center"
+                              android:layout_marginTop="3dp"
+                             >
+                         <TextView
+                             android:text="涂洋留学问答社区"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:textSize="10sp"
+                             
+                             />
+                         </RelativeLayout>
+                         
+                     </LinearLayout>
+                 </RelativeLayout>
+            </LinearLayout>
+             </RelativeLayout>
+       </LinearLayout>
+    </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".SearchActivity" >
+    <RelativeLayout 
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            >
+             <Button 
+                android:id="@+id/btn_search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+               
+                android:background="@drawable/searchview_bg"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                />
+             <EditText
+                 android:id="@+id/et_keyword"
+                 android:layout_width="230dp"
+                 android:layout_height="40dp"
+                 android:hint="请输入您搜索的内容"
+                 android:textSize="16sp"
+                 android:layout_gravity="center_vertical"
+                 android:background="@drawable/searchview_text_bg"
+                 />
+              <Button 
+                android:id="@+id/btn_cancel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                
+                android:background="@drawable/cancel_btn_bg"
+              
+                android:layout_marginLeft="10dp"
+                 android:layout_gravity="center_vertical"
+                />
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+    <View
+         android:id="@+id/top_line"
+         android:layout_below="@+id/top"
+         android:layout_width="fill_parent"
+         android:layout_height="1dp"
+         android:background="@color/homepage_icon_text_gray_color"
+         />
+    <ListView
+        android:layout_below="@+id/top_line"
+        android:layout_marginTop="20dp"
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/question_line"
+        >
+        
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/arrow"
+        ptr:ptrHeaderTextColor="#3498DB" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="10dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_firstitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_hottitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/homepage_top_bg" />
+
+                <TextView
+                    android:id="@+id/tv_hottitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="在哈弗大学就读时怎样一番体验？"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_hotcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_selector"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="3dp"
+                    android:text="在学一哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验"
+                    android:textColor="#3498DB"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <com.toyoung.ge.customwidge.CustomListView
+                android:id="@+id/lv_hotlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#B8B8B8"
+                android:dividerHeight="1px"
+                android:focusable="false"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

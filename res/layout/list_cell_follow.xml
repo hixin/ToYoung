@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.toyoung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.tuyoung.wu.CircleImageView
+        android:id="@+id/iv_avatar1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/space_5"
+        android:contentDescription="@null"
+        android:src="@drawable/widget_dface"
+        app:border_color="@color/white"
+        app:border_width="3dip" />
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+         android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_5"
+            android:text="@string/username"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_5"
+            android:text="@string/userlocation"
+            android:textColor="@color/gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_activity"
+        style="@style/list_text_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="中国本科生的质量是否已经超过了"
+        android:textColor="@color/black" />
+
+</LinearLayout>

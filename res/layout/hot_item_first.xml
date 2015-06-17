@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <ImageView
+        android:id="@+id/iv_hottitle"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/homepage_top_bg" />
+
+    <TextView
+        android:id="@+id/tv_hottitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="在哈弗大学就读时怎样一番体验？"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_hotcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="2dp"
+        android:text="在学一哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验在哈弗大学就读时怎样一番体验" />
+
+</LinearLayout>

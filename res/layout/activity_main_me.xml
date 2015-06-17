@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMeActivity" >
+
+
+   <include android:id="@+id/myinfo_head"
+       layout="@layout/fragment_my_information_head" />
+ 
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_my_information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/myinfo_head"
+        android:persistentDrawingCache="animation" />
+
+</RelativeLayout>
+
+ <!--    android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" -->

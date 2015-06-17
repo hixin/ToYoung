@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="yellow">#f4d674</color>
+    <color name="white">#ffffff</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="sc_transparent_background">#00111111</color>
+    <color name="nav_pre_color">#f1e60a</color>
+    <color name="content_title_text_color">#727171</color>
+    <color name="content_text_color">#404040</color>
+    <color name="stroke_click_color">#82F2FE</color>
+    <color name="stroke_normal_color">#C5C4C4</color>
+    <color name="listview_selected_color">#b4f7ff</color>
+    <color name="gray_bg">#ffeeeeee</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="text_gray_bg">#660D92DD</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="nav_blue">#00308a</color>
+    <color name="green">#00FF00</color>
+    <color name="top_green">#297910</color>
+    <color name="red">#D30000</color>
+    <color name="hui">#ffcccccc</color>
+    <color name="qianhuise">#ff999999</color>
+    <color name="qianlan">#ff0099cc</color>
+    <color name="listView_item_color_nor">#ffdedede</color>
+    <color name="babyshow_color">#aea390</color>
+    <!-- 白透明效果 -->
+    <color name="album_upload_listview_item_bg">#70987070</color>
+    <!-- 完全透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- liuwenyuan 2014/7/16 -->
+    <color name="main_color_green">#8addd5</color>
+    <color name="main_color_peachblow">#f59484</color>
+    <color name="homepage_icon_text_blue_color">#03b9F5</color>
+    <color name="homepage_icon_text_gray_color">#969594</color>
+    <color name="homepage_icon_question__color">#3bb3c2</color>
+    <!-- youerjiankan -->
+
+    <color name="tools_box_bg">#FF333332</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+
+    <drawable name="login_btn_text_normal">#03b9F5</drawable>
+    <drawable name="login_btn_text_pressed">#ffffff</drawable>
+
+    	<!--wu -->
+    <color name="my_information_option_pressed">#03a9f5</color>
+    <color name="my_information_background">#007cad</color>
+    <color name="list_divider_color">#DADADA</color>
+    <color name="gray">#bbbbbb</color>
+    <color name="gray1">#dddddd</color>
+    <color name="titlecolor">#3bb3c2</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="window_background">#EBEBEB</color>
+    <color name="list_item_background_normal">@color/white</color>
+    <color name="list_item_background_pressed">#efefef</color>
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+    	<!--wu -->
+     
+     
+</resources>

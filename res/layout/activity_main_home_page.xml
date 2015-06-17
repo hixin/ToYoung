@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:background="@color/white"
+    tools:context=".MainHomePageActivity" >
+    <LinearLayout 
+        android:id="@+id/ll_top"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            
+            >
+
+            <TextView
+                android:id="@+id/tv_hot"
+                android:layout_centerInParent="true"
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门"
+                android:textSize="20sp"
+                android:textColor="@color/homepage_icon_text_blue_color" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+           
+            >
+
+            <TextView
+                android:id="@+id/tv_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现"
+                android:layout_centerInParent="true"
+                 android:textSize="20sp"
+                android:textColor="@color/homepage_icon_text_gray_color" />
+
+            <Button 
+                android:id="@+id/btn_search"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/search_bg"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/ll_top"
+        android:id="@+id/vp_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:persistentDrawingCache="animation" />
+
+</FrameLayout>

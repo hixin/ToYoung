@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToYoung</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_home_page">MainHomePageActivity</string>
+    <string name="title_activity_main_me">MainMeActivity</string>
+    <string name="title_activity_main_hot">MainHotActivity</string>
+    <string name="title_activity_main_find">MainFindActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_subject">SubjectActivity</string>
+    <string name="title_activity_add_question">AddQuestionActivity</string>
+    <string name="title_activity_subject_list">SubjectListActivity</string>
+    <string name="title_activity_main_hot_answers_items">MainHotItemActivity</string>
+    <string name="title_activity_hot_answer_detail">HotAnswerDetailActivity</string>
+    <string name="title_activity_hot_first_item">HotFirstItemActivity</string>
+    <string name="title_activity_send_answer">SendAnswerActivity</string>
+    <string name="my_information_unlogin_tips">未登录</string>
+    <string name="question">提问</string>
+    <string name="answer">回答</string>
+    <string name="following">关注</string>
+    <string name="favorite">收藏</string>
+    <string name="school">西安电子科技大学</string>
+    <string name="username">途途</string>
+    <string name="userlocation">美国 硅谷</string>
+    <string name="support_count">%s支持/</string>
+    <string name="follow_count">%s人关注</string>
+    <string name="about">关于途洋</string>
+    <string name="feedback">意见反馈</string>
+    <string name="logout">退出当前帐号</string>
+    <string name="loading">加载中…</string>
+    <string name="loading_no_more">已加载全部</string>
+
+    <!-- Error View -->
+    <string name="error_view_click_to_refresh">点击屏幕,重新加载</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_network_error_click_to_refresh">没有可用的网络</string>
+    <string name="tip_network_error">没有可用的网络</string>
+
+</resources>
